@@ -17,7 +17,7 @@ spec:
          containers:
            - name: test-image
              image: ""account-id".dkr.ecr.us-east-1.amazonaws.com/test-image:tag"
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       type: front-end
